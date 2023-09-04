@@ -18,4 +18,6 @@ function countZeroes(binaryList) {
   return binaryList.length - liIx;
 }
 
+countZeroes([1, 1, 1, 1, 0, 0]); // 2
+
 module.exports = countZeroes;
